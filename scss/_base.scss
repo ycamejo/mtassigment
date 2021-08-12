@@ -1,0 +1,31 @@
+// Variables
+$black: #333;
+$white: #fff;
+
+
+//Colors
+.black {
+	color:$black;
+}
+.white {
+	color:$white;
+}
+//Backgrounds
+.black-bg {
+	background-color:$black;
+	color:$white;
+}
+.white-bg {
+	background-color:$white;
+	color:$black;
+}
+
+h1{
+	font-size: 72px;
+	background-color: #08AEEA;
+	background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align:center;
+	margin-bottom: 1rem;
+}

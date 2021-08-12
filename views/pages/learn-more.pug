@@ -1,0 +1,20 @@
+extends ../layouts/layout
+
+block content
+    section
+        .grid-container
+            .grid-x.grid-margin-x.grid-padding-y
+            .shrink.learn-more.medium-cell-block-container
+                h1 Little Quiz!
+                .quiz-questions.q1 Let's assume you leave the door open and I suddenly scape...
+                    will I ever comeback if you call me?
+                .quiz-options.options-q1
+                    input(type='radio', name='facts', id='t1', value='t1')
+                    label(for='t1') Absolutly not!
+                    br
+                    input(type='radio', name='facts', id='l1', value='l1')
+                    label(for='l1') Only if you show me a yummy treat
+                    br
+                    input(type='radio', name='facts', id='t2', value='t2')
+                    label(for='t2') Only if you open the car doors for me
+                .answer#answer

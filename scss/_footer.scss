@@ -1,0 +1,26 @@
+footer{
+  background-color: #08AEEA;
+  padding: 2rem 0;
+
+  ul{
+
+    li{
+      list-style-type: none;
+      display: inline-flex;
+      @media only screen and (max-width: 992px) {
+        display: block;
+      }
+
+      a{
+        color: white;
+        padding: 0.5rem 1.25rem;
+        border-bottom: 2px solid transparent;
+
+        &:hover{
+          color: white;
+          border-color: white;
+        }
+      }
+    }
+  }
+}
